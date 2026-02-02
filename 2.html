@@ -1,0 +1,25 @@
+<div class="products">
+    <article class="product" data-category="electronics">
+        <h3>Laptop</h3>
+        <p class="price">$999</p>
+    </article>
+    <article class="product" data-category="electronics">
+        <h3>Phone</h3>
+        <p class="price">$699</p>
+    </article>
+    <article class="product" data-category="accessories">
+        <h3>Charger</h3>
+        <p class="price">$29</p>
+    </article>
+</div>
+<script>
+    // Get all products
+    consolo.log(document.querySelectorAll('.product'))
+    // Get electronics only
+    conosle.log(document.querySelectorAll('.product[data-category=electronics]'))
+    // Get all prices
+    console.log(document.querySelectorAll('.product > .price'))
+
+    // Get price of first product
+    console.log(document.querySelectorAll('.product > .price')[0])
+</script>

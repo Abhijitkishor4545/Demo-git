@@ -1,0 +1,65 @@
+th,
+td {
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td {
+    text-align: center;
+
+}
+
+.parent {
+    height: 250px;
+    width: 250px;
+    background-color: pink;
+}
+
+.child {
+    background-color: red;
+    width: 250px;
+    height: 50px;
+}
+
+.block-element {
+    border: 2px solid red;
+    display: inline;
+}
+
+.inline-element {
+    border: 2px solid blue;
+    display: block;
+}
+
+.relative-element {
+    border: 2px solid green;
+    position: relative;
+
+}
+
+.absolute-element {
+    background-color: aqua;
+    height: 200px;
+    position: relative;
+    left: 100px;
+}
+
+.fixed-element {
+    border: 2px solid orange;
+    background-color: orange;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.sticky-element {
+    border: 5px solid purple;
+    position: sticky;
+    top: 10px;
+}

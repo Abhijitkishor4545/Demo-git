@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="signup">
+        <input type="text" name="username" required>
+        <input type="email" name="email" required>
+        <input type="password" name="password" required>
+        <input type="checkbox" name="terms">
+        <button type="submit">Register</button>
+    </form>
+    <script>
+        // Get all required fields
+        console.log(document.querySelectorAll('input[required]'));
+        // Get all text inputs
+        console.log(documnet.querySelectorAll('input[type=text]'));
+        // Get password field
+        console.log(documnet.querySelectorAll('input[type=password]'));
+
+        // Get form
+        console.log(documnet.querySelectorAll('#signup'));
+
+        // Get all inputs within form
+        // console.log(documnet.querySelectorAll('input[name=username],input[]',));
+        console.log(documnet.querySelectorAll('form input',));
+
+
+    </script>
+</body>
+
+</html>
